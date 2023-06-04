@@ -4,6 +4,7 @@
     If you want to know how it works, you can always view it since its open source!
 ]]
 
+repeat wait() until game:IsLoaded()
 
 getgenv().ServerHop = true --Set it to false if you dont want it to server hop
 getgenv().WaitSevenSeconds = true --[Dangourous] Set it to false if you do want it to wait for 7 seconds. Not recomand if you want to AFK farm it. It might not work since character isnt loaded yet.
