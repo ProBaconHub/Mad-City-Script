@@ -1,2 +1,2 @@
-# Mad-City-Event-Script
-Script for mad city event
+# Mad-City-Script
+Script for mad city
