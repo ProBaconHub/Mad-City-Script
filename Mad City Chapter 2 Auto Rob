@@ -4,11 +4,14 @@
     If you want to know how it works, you can always view it since its open source!
 ]]
 
+game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="Waiting for game to load.."; Duration=5;})
 repeat wait() until game:IsLoaded()
+wait(1)
+game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="Game Loaded!"; Duration=5;})
+getgenv().ServerHop = true
+getgenv().WaitSevenSeconds = true
 
-getgenv().ServerHop = true --Set it to false if you dont want it to server hop
-getgenv().WaitSevenSeconds = true --[Dangourous] Set it to false if you do want it to wait for 7 seconds. Not recomand if you want to AFK farm it. It might not work since character isnt loaded yet.
-
+if true then
 if WaitSevenSeconds then
 	game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="Wait 7 seconds."; Duration=20;})
 	task.wait(7)
@@ -332,4 +335,5 @@ if ServerHop then
     ServerTeleport()
     task.wait(10)
     game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="Server hop failed: Game failed to teleport!"; Duration=20;})
+end
 end
