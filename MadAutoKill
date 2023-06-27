@@ -1,0 +1,20 @@
+--[[
+Creator: ProBacon
+Date: 27/6/23 (dd/mm/yy)
+Tutor:
+    Turn on WaitSevenSecond & ServerHop if you are tring to put it into auto exe file to farm.
+    Turn on ReduceLag if your device keep crashing.
+    BreakVehicle is kind of suck, because there is no need to do that.
+
+    Note that this farm is using the hero team. DO NOT execute when you are in pvp mode.
+    DO NOT change team while it is farming.
+    To stop it, you will want to rejoin the game.
+    If a mod joins, leave game immedatly, you may get ban if you farm infront of a mod.
+]]
+_G.BreakVehicle = false
+_G.WaitSevenSeconds = false
+_G.ServerHop = false
+_G.ReduceLag = false
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/Mad-City-Script/main/ScriptForMadAutoKill(NotOpenSource)"))()
