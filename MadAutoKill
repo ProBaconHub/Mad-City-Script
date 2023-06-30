@@ -15,8 +15,8 @@ Tutor:
 _G.WaitSevenSeconds = false --Useless unless auto farm with server hop
 _G.ServerHop = false --Useless unless auto farm
 _G.ReduceLag = false --For bad devices
-_G.AutoLeave = true --So player cant track or report you
-_G.LoopSeconds = 7
+_G.AutoLeave = true	 --So player cant track or report you
+local ProVersionKey = "Key" -- Win the key in discord! https://discord.gg/7kEwajHn
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/Mad-City-Script/main/ScriptForMadAutoKill(NotOpenSource)"))()
