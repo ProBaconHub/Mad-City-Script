@@ -11,12 +11,11 @@ Tutor:
     To stop it, you will want to rejoin the game.
     If a mod joins, leave game immedatly, you may get ban if you farm infront of a mod.
 ]]
---_G.BreakVehicle = false --Removed due to low efficiency
 _G.WaitSevenSeconds = false --Useless unless auto farm with server hop
 _G.ServerHop = false --Useless unless auto farm
 _G.ReduceLag = false --For bad devices
 _G.AutoLeave = true	 --So player cant track or report you
-local ProVersionKey = "Key" -- Win the key in discord! https://discord.gg/7kEwajHn
+getgenv().ProVersionKey = "5U30Ov591I"
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/Mad-City-Script/main/ScriptForMadAutoKill(NotOpenSource)"))()
