@@ -1,1 +1,1 @@
-getgenv().AutoKillVersion = "Removed"
+getgenv().AutoKillVersion = "v2.1"
