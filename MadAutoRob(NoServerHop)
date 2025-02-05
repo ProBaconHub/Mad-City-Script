@@ -1,0 +1,4 @@
+game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="Script Deleted. Sorry for inconvenience. "; Duration=5;})
+game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="If you are seeing this, thanks for supporting ProBaconHub."; Duration=5;})
+game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="If you want mad city ch2 farm script to be released and published again"; Duration=5;})
+game.StarterGui:SetCore("SendNotification", {Title="Pro Bacon"; Text="Please inform ProBacon on ScriptBlox."; Duration=5;})
